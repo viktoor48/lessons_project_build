@@ -1,0 +1,46 @@
+.site-footer{
+    background-color: #fff;
+    padding-top: 60px;
+    padding-bottom: 44px;
+    font-size: 14px;
+    color: #28313b;
+}
+.site-footer h1,.site-footer h2,.site-footer h3,.site-footer h4{
+    font-size: 16px;
+    margin: 18px  0;
+    color: #ff5912;
+}
+.block-370 .copyright{
+    margin-top: 20px;
+}
+.block-170 li{
+    margin-bottom: 10px;
+}
+.block-170 a{
+    text-decoration: none;
+    color: #28313b;
+}
+.block-170 a:hover, li:hover{
+    color: #ff5912;
+}
+.block-170 .payment-img{
+    width: 25px;
+    height: 17px;
+    display: inline-block;
+    background-image: url("../images/payment_bg.png");
+}
+.block-170 .first{
+    background-position: -1px -1px;
+}
+.block-170 .second{
+    background-position: -36px -1px;
+}
+.block-170 .third{
+    background-position: -72px -1px;
+}
+.block-170 .fourth{
+    background-position: -108px -1px;
+}
+.block-170 .fifth{
+    background-position: -144px -1px;
+}

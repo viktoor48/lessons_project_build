@@ -1,0 +1,117 @@
+.site-header{
+    min-height: 180px;
+    background-color: #fff;
+    color: #28313b;
+}
+.header-line{
+    min-height: 60px;
+    border-bottom: 1px solid #edeff1;
+}
+.main-logo img{
+    margin-top: 30px;
+}
+.block-770{
+    float: left;
+    width: 64.16666%;
+    margin: 0 1.25%;
+    min-height: 100px;
+}
+.main-nav{
+    margin-top: 35px;
+}
+.main-nav li{
+    float: left;
+    margin: 0 10px;
+}
+.main-nav ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.main-nav a{
+    text-decoration: none;
+    color: #28313b;
+}
+.main-nav li{
+    list-style: none;
+}
+.main-nav .active{
+    color: #ff5912;
+}
+.main-nav a:hover{
+    color: #ff5912;
+}
+.icon-line{
+    margin-top: 30px;
+}
+.icon-line img{
+    margin: 0 10px;
+}
+.card{
+    position: relative;
+}
+.card-count{
+    content: "6";
+    position: absolute;
+    background-color: #44525e;
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-size: 14px;
+    text-align: center;
+    top: -20px;
+    right: 12px;
+    color: #fff;
+}
+.block-600{
+    float: left;
+    width: 47.3847%;
+    margin: 0 1.25%;
+}
+.right{
+    float: right;
+}
+.contacts-header{
+    padding: 0;
+}
+.contacts-header::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.contacts-header li{
+    float: left;
+    margin: 0 20px 0 0 ;
+    list-style: none;
+}
+.contacts-header a{
+    text-decoration: none;
+    color: #28313b;
+}
+.contacts-header .email::before{
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/ico_1.png");
+}
+.contacts-header .phone::before{
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+    width: 20px;
+    height: 18px;
+    background-image: url("../images/ico_2.png");
+}
+.contacts-icon{
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 44px;
+}
+.contacts-icon img{
+    margin: 0 10px;
+}
