@@ -1,0 +1,84 @@
+
+/*--------------------------catalog----------------------------------*/
+.side-bar{
+    background-color: #fff;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+.side-bar h3{
+    font-size: 18px;
+    color: #ff5912;
+}
+.side-bar a{
+    color: #28313b;
+    text-decoration: none;
+}
+.side-bar li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.side-bar .active-square::before{
+    content: "";
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    border: 4px solid #ff5912;
+    margin-right: 10px;
+}
+.side-bar .inactive-square::before{
+    content: "";
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    background-color: #edf0f2;
+    margin-right: 10px;
+}
+
+.double-slider{
+    position: relative;
+    min-height: 80px;
+}
+.line-1{
+    height: 2px;
+    position: absolute;
+    background-color: #edf0f2;
+    top: 60px;
+    right: 20px;
+    left: 20px;
+}
+.line-2{
+    height: 2px;
+    position: absolute;
+    background-color: #34404b;
+    top: 60px;
+    right: 50px;
+    left: 50px;
+}
+.right-dot, .left-dot{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+}
+.dot{
+    width: 12px;
+    height: 12px;
+    background-color: #34404b;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.right-dot{
+    top: 34px;
+    right: 34px;
+}
+.left-dot{
+    top: 34px;
+    left: 34px;
+}
+.slider-from-to{
+    margin: 20px;
+}
+.slider-from-to input{
+    width: 40px;
+    margin-left: 20px;
+}

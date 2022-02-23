@@ -16,7 +16,7 @@ h3{
     font-size: 36px;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 20px;
+    margin: 70px 0 20px 0;
 }
 .color-orange{
     color: #ff7013;
@@ -24,12 +24,64 @@ h3{
 .description{
     text-align: center;
 }
+.price{
+    color: #ff7013;
+    font-weight: bold;
+}
+
+/*----------grid----------*/
 .container{
     width: 1200px;
     margin: 10px auto;
 }
+.row{
+    margin: 0;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.block-370{
+    float: left;
+    width: 30.83333%;
+    margin: 0 1.25%;
+    min-height: 100px;
+}
+.block-270{
+    float: left;
+    margin: 0 1.25%;
+    width: 22.5%;
+    min-height: 100px;
+}
+.block-570{
+    float: left;
+    width: 47.5%;
+    margin: 0 1.25%;
+}
+.block-670{
+    float: left;
+    width: 55.83%;
+    margin: 0 1.25%;
+    min-height: 100px;
+}
+.block-1170{
+    float: left;
+    width: 97.5%;
+    margin: 0 1.25%;
+    min-height: 100px;
+}
+.block-170{
+    float: left;
+    width: 14.166666%;
+    margin: 0 1.25%;
+    min-height: 100px;
+}
+/*-------------------end grid-------------*/
 
-/*----------------после был коммент-----------*/
 .goods-block{
     margin: 80px 0;
 }
@@ -53,30 +105,56 @@ h3{
     color: #ff7013;
     margin: 15px 0 10px;
 }
-/*----------------до был коммент-----------*/
 
-.row{
-    margin: 0 -1.25%;
+/*--------------------best-sales-------------------*/
+.best-sales{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 70px;
 }
-.row::after{
-    content: "";
-    display: block;
-    clear: both;
+.best-sales img{
+    max-width: 40%;
 }
-.block-370{
-    float: left;
-    width: 30.83333%;
-    margin: 0 1.25%;
+.best-sales-description{
+    float: right;
+    width: 60%;
+}
+.best-sales-description img{
+    max-width: 100%;
+    position: relative;
+    top: 6px;
+}
+.best-sales-description .price{
+    text-align: right;
+    display: inline-block;
+    width: 50%;
+}
+.best-sales-description p{
+    margin-top: 20px;
+}
+/*--------------------end best-sales-------------------*/
+
+/*--------------------letter-------------------*/
+.letter{
+    background-color: #fff;
+    margin: 120px 0;
     min-height: 100px;
+    padding: 10px;
+    line-height: 100px;
 }
-.block-270{
-    float: left;
-    margin: 0 1.25%;
-    width: 22.5%;
+.letter .join-us{
+    background-color: #ff5913;
+    border: none;
+    color: #fff;
+    padding: 15px 25px;
+    text-transform: uppercase;
 }
-.block-170{
-    float: left;
-    width: 14.166666%;
-    margin: 0 1.25%;
-    min-height: 100px;
+.news-letter span{
+    color: #ff5912;
+    text-transform: uppercase;
+    font-weight: bold;
 }
+.type-email img{
+    margin-right: 10px;
+}
+/*--------------------end letter-------------------*/
