@@ -18,6 +18,9 @@ h3{
     text-align: center;
     margin: 70px 0 20px 0;
 }
+.products-h1{
+    margin: 100px 0 50px 0;
+}
 .color-orange{
     color: #ff7013;
 }
@@ -45,17 +48,26 @@ h3{
 .text-center{
     text-align: center;
 }
-.block-370{
-    float: left;
-    width: 30.83333%;
-    margin: 0 1.25%;
-    min-height: 100px;
+.text-orange{
+    color: #ff5912;
+}
+.text-right{
+    text-align: right;
+}
+.bold{
+    font-weight: bold;
 }
 .block-270{
     float: left;
     margin: 0 1.25%;
     width: 22.5%;
     min-height: 100px;
+}
+.block-370{
+    float: left;
+    width: 30.83333%;
+    min-height: 100px;
+    margin: 0 1.25%;
 }
 .block-570{
     float: left;
@@ -65,6 +77,12 @@ h3{
 .block-670{
     float: left;
     width: 55.83%;
+    margin: 0 1.25%;
+    min-height: 100px;
+}
+.block-900{
+    float: left;
+    width: 72.5%;
     margin: 0 1.25%;
     min-height: 100px;
 }
@@ -94,6 +112,7 @@ h3{
     background-color: #fff;
     min-height: 350px;
     text-align: center;
+    margin:  0 0 20px 0;
 }
 .goods-card img{
     margin-top: 30px;
@@ -105,7 +124,6 @@ h3{
     color: #ff7013;
     margin: 15px 0 10px;
 }
-
 /*--------------------best-sales-------------------*/
 .best-sales{
     background-color: #fff;
@@ -158,3 +176,20 @@ h3{
     margin-right: 10px;
 }
 /*--------------------end letter-------------------*/
+
+/*----------------------divider-----------------------*/
+.divider{
+    background-color: #fff;
+    text-align: center;
+    min-height: 60px;
+    margin: 0 0 115px 0;
+    line-height: 60px;
+}
+.divider .circle{
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #ff7013;
+}
+/*----------------------end divider-----------------------*/
