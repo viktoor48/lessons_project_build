@@ -1,10 +1,9 @@
 .site-header{
-    min-height: 180px;
     background-color: #fff;
     color: #28313b;
 }
 .header-line{
-    padding: 7px 0;
+    padding: 12px 0;
     border-bottom: 1px solid #edeff1;
 }
 .header-line .header-ico{

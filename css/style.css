@@ -34,8 +34,8 @@ h3{
 
 /*----------grid----------*/
 .container{
-    width: 1200px;
-    margin: 10px auto;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .row{
     margin: 0;
@@ -193,3 +193,41 @@ h3{
     background-color: #ff7013;
 }
 /*----------------------end divider-----------------------*/
+/*----------------------slider-on-top-----------------------*/
+.slider-on-top-bg{
+    background-image: url("../images/slider_1.png");
+    background-size: cover;
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+}
+.slider-on-top{
+    width: 50%;
+    overflow: hidden;
+}
+.slider-on-top h2{
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.slider-on-top p{
+    margin: 20px 0;
+}
+/*----------------------end slider-on-top-----------------------*/
+
+/*------------------mobile-768px-------------*/
+@media (max-width: 768px){
+    .block-1170,
+    .block-900,
+    .block-770,
+    .block-670,
+    .block-570,
+    .block-370,
+    .block-300,
+    .block-270,
+    .block-170 {
+        width: auto;
+        min-height: auto;
+        float: none;
+        margin: 0;
+    }
+}
