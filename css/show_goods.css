@@ -200,3 +200,16 @@
 .letter{
     margin: 0 0 120px 0;
 }
+
+@media screen and (max-width: 768px){
+    .single-goods-card{
+        margin-top: 50px;
+    }
+    .order span{
+        position: relative;
+        top: 7px;
+    }
+    .letter{
+        margin: 20px 0 40px 0 !important;
+    }
+}
