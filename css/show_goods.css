@@ -213,3 +213,21 @@
         margin: 20px 0 40px 0 !important;
     }
 }
+@media screen and (max-width: 500px){
+    .choose-size .left{
+        float: none;
+        width: auto;
+        text-align: center;
+    }
+    .choose-size .right{
+        float: none;
+        width: auto;
+        text-align: center;
+    }
+    .choose-size .left{
+        margin-bottom: 30px;
+    }
+    .order span{
+        margin-bottom: 30px;
+    }
+}

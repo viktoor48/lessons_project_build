@@ -69,11 +69,6 @@ h3{
     min-height: 100px;
     margin: 0 1.25%;
 }
-.block-570{
-    float: left;
-    width: 47.5%;
-    margin: 0 1.25%;
-}
 .block-670{
     float: left;
     width: 55.83%;
@@ -85,6 +80,11 @@ h3{
     width: 64.16666%;
     margin: 0 1.25%;
     min-height: 100px;
+}
+.block-570{
+    float: left;
+    width: 47.5%;
+    margin: 0 1.25%;
 }
 .block-900{
     float: left;
@@ -220,67 +220,6 @@ h3{
 }
 /*----------------------end slider-on-top-----------------------*/
 
-/*------------------mobile-768px-------------*/
-@media screen and (max-width: 768px){
-    .block-1170,
-    .block-900,
-    .block-770,
-    .block-670,
-    .block-570,
-    .block-370,
-    .block-300,
-    .block-270,
-    .block-170 {
-        width: auto;
-        min-height: auto;
-        float: none;
-        margin: 0;
-    }
-    .md-1,
-    .md-2,
-    .md-3,
-    .md-4,
-    .md-6,
-    .md-8,
-    .md-10,
-    .md-12{
-        float: left;
-        margin: 0 1.25%;
-    }
-    .md-1{
-        width: 5.8333%;
-    }
-    .md-2{
-        width: 14.1666%;
-    }
-    .md-3{
-        width: 22.5%;
-    }
-    .md-4{
-        width: 30.8333333%;
-    }
-    .md-6{
-        width: 47.5%;
-    }
-    .md-8{
-        width: 64.166667%;
-    }
-    .md-10{
-        width: 80.83334%;
-    }
-    .md-12{
-        width: 97.5%;
-    }
-    .md-center{
-        text-align: center;
-    }
-    .icon-line{
-        margin: 20px 0;
-    }
-    .slider-on-top-bg{
-        max-height: 350px;
-    }
-}
 @media screen and (max-width: 768px){
     .block-1170,
     .block-900,
@@ -349,68 +288,6 @@ h3{
     .best-sales{
         margin-bottom: 20px;
         margin-top: 20px;
-    }
-}
-
-/*------------------mobile-768px-------------*/
-@media screen and (max-width: 768px){
-    .block-1170,
-    .block-900,
-    .block-770,
-    .block-670,
-    .block-570,
-    .block-370,
-    .block-300,
-    .block-270,
-    .block-170 {
-        width: auto;
-        min-height: auto;
-        float: none;
-        margin: 0;
-    }
-    .md-1,
-    .md-2,
-    .md-3,
-    .md-4,
-    .md-6,
-    .md-8,
-    .md-10,
-    .md-12{
-        float: left;
-        margin: 0 1.25%;
-    }
-    .md-1{
-        width: 5.8333%;
-    }
-    .md-2{
-        width: 14.1666%;
-    }
-    .md-3{
-        width: 22.5%;
-    }
-    .md-4{
-        width: 30.8333333%;
-    }
-    .md-6{
-        width: 47.5%;
-    }
-    .md-8{
-        width: 64.166667%;
-    }
-    .md-10{
-        width: 80.83334%;
-    }
-    .md-12{
-        width: 97.5%;
-    }
-    .md-center{
-        text-align: center;
-    }
-    .icon-line{
-        margin: 20px 0;
-    }
-    .slider-on-top-bg{
-        max-height: 350px;
     }
 }
 /*------------------mobile-500px-------------*/
