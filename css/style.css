@@ -208,7 +208,7 @@ h3{
     align-items: center;
 }
 .slider-on-top{
-    width: 50%;
+    width: 70%;
     overflow: hidden;
 }
 .slider-on-top h2{
@@ -349,5 +349,148 @@ h3{
     .best-sales{
         margin-bottom: 20px;
         margin-top: 20px;
+    }
+}
+
+/*------------------mobile-768px-------------*/
+@media screen and (max-width: 768px){
+    .block-1170,
+    .block-900,
+    .block-770,
+    .block-670,
+    .block-570,
+    .block-370,
+    .block-300,
+    .block-270,
+    .block-170 {
+        width: auto;
+        min-height: auto;
+        float: none;
+        margin: 0;
+    }
+    .md-1,
+    .md-2,
+    .md-3,
+    .md-4,
+    .md-6,
+    .md-8,
+    .md-10,
+    .md-12{
+        float: left;
+        margin: 0 1.25%;
+    }
+    .md-1{
+        width: 5.8333%;
+    }
+    .md-2{
+        width: 14.1666%;
+    }
+    .md-3{
+        width: 22.5%;
+    }
+    .md-4{
+        width: 30.8333333%;
+    }
+    .md-6{
+        width: 47.5%;
+    }
+    .md-8{
+        width: 64.166667%;
+    }
+    .md-10{
+        width: 80.83334%;
+    }
+    .md-12{
+        width: 97.5%;
+    }
+    .md-center{
+        text-align: center;
+    }
+    .icon-line{
+        margin: 20px 0;
+    }
+    .slider-on-top-bg{
+        max-height: 350px;
+    }
+}
+/*------------------mobile-500px-------------*/
+@media screen and (max-width: 500px){
+    .block-1170,
+    .block-900,
+    .block-770,
+    .block-670,
+    .block-570,
+    .block-370,
+    .block-300,
+    .block-270,
+    .block-170 {
+        width: auto;
+        min-height: auto;
+        float: none;
+        margin: 0;
+    }
+    .sm-1,
+    .sm-2,
+    .sm-3,
+    .sm-4,
+    .sm-6,
+    .sm-8,
+    .sm-10,
+    .sm-12{
+        float: left;
+        margin: 0 1.25%;
+    }
+    .sm-1{
+        width: 5.8333%;
+    }
+    .sm-2{
+        width: 14.1666%;
+    }
+    .sm-3{
+        width: 22.5%;
+    }
+    .sm-4{
+        width: 30.8333333%;
+    }
+    .sm-6{
+        width: 47.5%;
+    }
+    .sm-8{
+        width: 64.166667%;
+    }
+    .sm-10{
+        width: 80.83334%;
+    }
+    .sm-12{
+        width: 97.5%;
+    }
+    .sm-center{
+        text-align: center;
+    }
+    .sm-left{
+        text-align: left;
+    }
+    .sm-right{
+        text-align: right;
+    }
+    .sm-mr-bottom{
+        margin-bottom: 20px;
+    }
+    .icon-line{
+        margin: 20px 0;
+    }
+    .slider-on-top-bg{
+        min-height: 350px;
+    }
+    .divider{
+        margin: 0px 0 40px;
+    }
+    .best-sales{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .site-footer ul{
+        list-style: none;
+        padding: 0;
     }
 }
